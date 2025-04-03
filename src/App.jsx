@@ -1,16 +1,23 @@
 import Header from "./components/header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
+// import Logo from "./components/Logo"
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
+      <br />
+      <br />
+      <br />
+      {/* <Logo /> */}
 
       <Main />
-
+      <br />
+      <br />
+      <br />
       <Footer />
-    </div>
+    </>
   )
 };
 
