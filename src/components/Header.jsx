@@ -1,6 +1,7 @@
 function Header() {
     return <header>
         {/* <Logo /> */}
+        (img)
         <nav>
             <ul>
                 <li>Characters</li>
