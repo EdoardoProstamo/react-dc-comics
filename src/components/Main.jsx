@@ -12,11 +12,11 @@ function Main() {
             <span> {'-->'} Content goes here {'<--'} </span>
         </div>
         <div className="main-shop">
-            <div><img src={miniLogoDc} alt="Mini Logo DC" /> DIGITAL COMICS</div>
-            <div><img src={logoTshirt} alt="Logo T-Shirt" /> DC MERCHANDISE</div>
-            <div><img src={logoCard} alt="Logo Subscriptions Card" /> SUBSCRIPTION</div>
-            <div><img src={logoGps} alt="Logo GPS Locator" /> COMICS SHOP LOCATOR</div>
-            <div><img src={logoVisa} alt="Logo Visa Card" /> DC POWER VISA</div>
+            <div><img className='mini-logos' src={miniLogoDc} alt="Mini Logo DC" /> DIGITAL COMICS</div>
+            <div><img className='mini-logos' src={logoTshirt} alt="Logo T-Shirt" /> DC MERCHANDISE</div>
+            <div><img className='mini-logos' src={logoCard} alt="Logo Subscriptions Card" /> SUBSCRIPTION</div>
+            <div><img className='mini-logos' src={logoGps} alt="Logo GPS Locator" /> COMICS SHOP LOCATOR</div>
+            <div><img className='mini-logos' src={logoVisa} alt="Logo Visa Card" /> DC POWER VISA</div>
         </div>
         <div className="main-menu">
             <div>
