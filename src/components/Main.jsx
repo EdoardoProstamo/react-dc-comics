@@ -12,11 +12,26 @@ function Main() {
             <span> {'-->'} Content goes here {'<--'} </span>
         </div>
         <div className="main-shop">
-            <div><img className='mini-logos' src={miniLogoDc} alt="Mini Logo DC" /> DIGITAL COMICS</div>
-            <div><img className='mini-logos' src={logoTshirt} alt="Logo T-Shirt" /> DC MERCHANDISE</div>
-            <div><img className='mini-logos' src={logoCard} alt="Logo Subscriptions Card" /> SUBSCRIPTION</div>
-            <div><img className='mini-logos' src={logoGps} alt="Logo GPS Locator" /> COMICS SHOP LOCATOR</div>
-            <div><img className='mini-logos' src={logoVisa} alt="Logo Visa Card" /> DC POWER VISA</div>
+            <div className='mini-logos-container'>
+                <a href="#"> <img className='mini-logos' src={miniLogoDc} alt="Mini Logo DC" /> </a>
+                <a href="#"><article className='mini-logos-names'>DIGITAL COMICS</article></a>
+            </div>
+            <div className='mini-logos-container'>
+                <a href="#"><img className='mini-logos' src={logoTshirt} alt="Logo T-Shirt" /></a>
+                <a href="#"><article className='mini-logos-names'>DC MERCHANDISE</article></a>
+            </div>
+            <div className='mini-logos-container'>
+                <a href="#"><img className='mini-logos' src={logoCard} alt="Logo Subscriptions Card" /></a>
+                <a href="#"><article className='mini-logos-names'>SUBSCRIPTION</article></a>
+            </div>
+            <div className='mini-logos-container'>
+                <a href="#"><img className='mini-logos' src={logoGps} alt="Logo GPS Locator" /></a>
+                <a href="#"><article className='mini-logos-names'>COMICS SHOP LOCATOR</article></a>
+            </div>
+            <div className='mini-logos-container'>
+                <a href="#"><img className='mini-logos' src={logoVisa} alt="Logo Visa Card" /></a>
+                <a href="#"><article className='mini-logos-names'>DC POWER VISA</article></a>
+            </div>
         </div>
         <div className="main-menu">
             <div>

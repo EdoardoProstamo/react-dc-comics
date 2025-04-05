@@ -43,6 +43,8 @@ header div .logoHeader {
 
 
 /* MAIN */
+
+/* main-1 */
 .main-contents {
   height: 130px;
   background-color: #000000;
@@ -52,12 +54,34 @@ header div .logoHeader {
   padding: 50px 0px 45px 130px;
 }
 
+/* main-2 */
 .main-shop {
   height: 160px;
   background-color: #0282f9;
   color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
+.mini-logos-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mini-logos {
+  width: 40px;
+  height: 55px;
+}
+
+.mini-logos-names {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* main-3 */
 .main-menu {
   background-color: green;
 }
