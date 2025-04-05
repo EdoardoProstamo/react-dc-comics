@@ -1,14 +1,22 @@
+import miniLogoDc from '../img/buy-comics-digital-comics.png'
+import logoTshirt from '../img/buy-comics-merchandise.png'
+import logoCard from '../img/buy-comics-subscriptions.png'
+import logoGps from '../img/buy-comics-shop-locator.png'
+import logoVisa from '../img/buy-dc-power-visa.svg'
+
+
+
 function Main() {
     return <main>
         <div className="main-contents">
             <span> {'-->'} Content goes here {'<--'} </span>
         </div>
         <div className="main-shop">
-            <div>(img) DIGITAL COMICS</div>
-            <div>(img) DC MERCHANDISE</div>
-            <div>(img) SUBSCRIPTION</div>
-            <div>(img) COMICS SHOP LOCATOR</div>
-            <div>(img) DC POWER VISA</div>
+            <div><img src={miniLogoDc} alt="Mini Logo DC" /> DIGITAL COMICS</div>
+            <div><img src={logoTshirt} alt="Logo T-Shirt" /> DC MERCHANDISE</div>
+            <div><img src={logoCard} alt="Logo Subscriptions Card" /> SUBSCRIPTION</div>
+            <div><img src={logoGps} alt="Logo GPS Locator" /> COMICS SHOP LOCATOR</div>
+            <div><img src={logoVisa} alt="Logo Visa Card" /> DC POWER VISA</div>
         </div>
         <div className="main-menu">
             <div>
