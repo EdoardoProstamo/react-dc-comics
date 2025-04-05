@@ -1,8 +1,6 @@
-// import LogoDc from '../assets/img'
-// function Logo() {
-//     return <figure>
-//         <img src="{LogoDc}" alt="Logo" />
-//     </figure>
-// }
+import LogoDc from '../img/dc-logo.png'
+function Logo() {
+    return <img className='logoHeader' src={LogoDc} alt="Logo" />
+}
 
-// export default LogoDc;
+export default Logo;
