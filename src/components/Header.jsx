@@ -4,7 +4,7 @@ import Logo from "./Logo"
 function Header() {
     return <header>
         <div>
-            <Logo />
+            <a href="#"><Logo /></a>
             <nav>
                 <ul>
                     <li> <a href="#">Characters</a> </li>

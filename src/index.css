@@ -48,10 +48,14 @@ header div .logoHeader {
 .main-contents {
   height: 130px;
   background-color: #000000;
-  color: #ffffff;
   font-size: larger;
   font-weight: bold;
   padding: 50px 0px 45px 130px;
+}
+
+.main-contents a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /* main-2 */
@@ -76,7 +80,7 @@ header div .logoHeader {
   height: 55px;
 }
 
-.mini-logos-names {
+.mini-logos-container a {
   text-decoration: none;
   color: #ffffff;
 }
