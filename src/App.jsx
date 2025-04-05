@@ -7,11 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <br />
-      <br />
-      <br />
       {/* <Logo /> */}
-
       <Main />
       <br />
       <br />

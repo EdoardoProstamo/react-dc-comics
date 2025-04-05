@@ -7,7 +7,7 @@
 }
 
 
-
+/* HEADER */
 header div {
   display: flex;
   justify-content: space-between;
@@ -38,3 +38,28 @@ header div .logoHeader {
   color: #0282f9;
   border-bottom: 3px solid;
 }
+
+/* HEADER */
+
+
+/* MAIN */
+.main-contents {
+  height: 130px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: larger;
+  font-weight: bold;
+  padding: 50px 0px 45px 130px;
+}
+
+.main-shop {
+  height: 160px;
+  background-color: #0282f9;
+  color: #ffffff;
+}
+
+.main-menu {
+  background-color: green;
+}
+
+/* MAIN */
