@@ -148,7 +148,7 @@ header div .logoHeader {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 950px;
+  gap: 800px;
 }
 
 .subscriptions-container button {
@@ -164,5 +164,16 @@ header div .logoHeader {
   cursor: pointer;
 }
 
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.social h3 {
+  color: #0282f9;
+  font-size: medium;
+}
 
 /* FOOTER */
