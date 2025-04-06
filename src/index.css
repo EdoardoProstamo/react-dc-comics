@@ -46,7 +46,6 @@ header div .logoHeader {
 
 /* main-1 */
 .main-contents {
-  height: 130px;
   background-color: #000000;
   font-size: larger;
   font-weight: bold;
@@ -60,7 +59,7 @@ header div .logoHeader {
 
 /* main-2 */
 .main-shop {
-  height: 160px;
+  height: 150px;
   background-color: #0282f9;
   color: #ffffff;
   display: flex;
@@ -86,8 +85,54 @@ header div .logoHeader {
 }
 
 /* main-3 */
+.main-menu-container {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  /* importazione copertina */
+  background-image: url(./img/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
 .main-menu {
-  background-color: green;
+  margin: 40px 0 60px 130px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 80%;
+}
+
+.main-menu div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-menu h3 {
+  color: #ffffff;
+}
+
+.main-menu ul a {
+  text-decoration: none;
+  list-style: none;
+  color: #959595;
+  font-size: smaller;
+}
+
+.big-logo-container {
+  /* importazione logo big */
+  background-image: url(./img/dc-logo-bg.png);
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 200px;
+  position: absolute;
+  top: -50px;
+  right: 0px;
 }
 
 /* MAIN */
