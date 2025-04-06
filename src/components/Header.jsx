@@ -1,4 +1,7 @@
 import Logo from "./Logo"
+import NavElements from "./NavElements";
+
+const NavObject = ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"];
 
 
 function Header() {
@@ -6,18 +9,7 @@ function Header() {
         <div>
             <a href="#" className="hover"><Logo /></a>
             <nav>
-                <ul>
-                    <li> <a href="#" className="hover">CHARACTERS</a> </li>
-                    <li> <a href="#" className="bb-blue hover">COMICS</a> </li>
-                    <li> <a href="#" className="hover">MOVIES</a> </li>
-                    <li> <a href="#" className="hover">TV</a> </li>
-                    <li> <a href="#" className="hover">GAMES</a> </li>
-                    <li> <a href="#" className="hover">COLLECTIBLES</a> </li>
-                    <li> <a href="#" className="hover">VIDEOS</a> </li>
-                    <li> <a href="#" className="hover">FANS</a> </li>
-                    <li> <a href="#" className="hover">NEWS</a> </li>
-                    <li> <a href="#" className="hover">SHOP</a> </li>
-                </ul>
+                <NavElements NavObject={NavObject} />
             </nav>
         </div>
     </header>
