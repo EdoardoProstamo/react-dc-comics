@@ -7,9 +7,6 @@ function App() {
     <>
       <Header />
       <Main />
-      <br />
-      <br />
-      <br />
       <Footer />
     </>
   )

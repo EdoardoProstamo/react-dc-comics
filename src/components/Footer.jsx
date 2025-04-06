@@ -1,8 +1,8 @@
 function Footer() {
     return <footer>
-        <div>
+        <div className="subscriptions-container">
             <button>SIGN-UP-NOW!</button>
-            <div>
+            <div className="social">
                 <h3>FOLLOW US</h3>
                 (img)
                 (img)
