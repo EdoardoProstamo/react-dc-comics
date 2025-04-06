@@ -3,8 +3,8 @@ Esercizio di oggi: DC Comics (React Components)
 Day-1
 
 -Descrizione:
--Create un nuovo progetto React e definite i componenti necessari per strutturare il layout come da screenshot allegato.
--Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al CSS!
+ -Create un nuovo progetto React e definite i componenti necessari per strutturare il layout come da screenshot allegato.
+ -Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al CSS!
 
 -Note:
  - Il font utilizzato è Open Sans
