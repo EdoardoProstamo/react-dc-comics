@@ -66,6 +66,8 @@ header div .logoHeader {
   justify-content: center;
   align-items: center;
   gap: 50px;
+  position: relative;
+  z-index: 1;
 }
 
 .mini-logos-container {
@@ -125,13 +127,13 @@ header div .logoHeader {
 .big-logo-container {
   /* importazione logo big */
   background-image: url(./img/dc-logo-bg.png);
-  width: 500px;
-  height: 500px;
+  width: 550px;
+  height: 550px;
   background-size: cover;
   background-repeat: no-repeat;
   margin-right: 200px;
   position: absolute;
-  top: -50px;
+  top: -80px;
   right: 0px;
 }
 
