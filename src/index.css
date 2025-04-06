@@ -13,7 +13,7 @@ header div {
   justify-content: space-between;
   align-items: center;
   margin: 20px 130px;
-  gap: 350px;
+  gap: 290px;
 }
 
 header div ul {
@@ -36,7 +36,8 @@ header div .logoHeader {
 
 .bb-blue {
   color: #0282f9;
-  border-bottom: 3px solid;
+  border-bottom: 5px solid;
+  padding-bottom: 47px;
 }
 
 /* HEADER */
@@ -160,10 +161,6 @@ header div .logoHeader {
   color: #ffffff;
 }
 
-.subscriptions-container button:hover {
-  cursor: pointer;
-}
-
 .social {
   display: flex;
   justify-content: center;
@@ -177,3 +174,13 @@ header div .logoHeader {
 }
 
 /* FOOTER */
+
+
+/* HOVER */
+.hover:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+
+/* HOVER */

@@ -10,26 +10,26 @@ import bigLogo from '../img/dc-logo-bg.png'
 function Main() {
     return <main>
         <div className="main-contents">
-            <a href="#"><article> {'-->'} Content goes here {'<--'} </article></a>
+            <a href="#" className="hover"><article> {'-->'} Content goes here {'<--'} </article></a>
         </div>
         <div className="main-shop">
-            <div className='mini-logos-container'>
+            <div className='mini-logos-container hover'>
                 <a href="#"> <img className='mini-logos' src={miniLogoDc} alt="Mini Logo DC" /> </a>
                 <a href="#"><article>DIGITAL COMICS</article></a>
             </div>
-            <div className='mini-logos-container'>
+            <div className='mini-logos-container hover'>
                 <a href="#"><img className='mini-logos' src={logoTshirt} alt="Logo T-Shirt" /></a>
                 <a href="#"><article>DC MERCHANDISE</article></a>
             </div>
-            <div className='mini-logos-container'>
+            <div className='mini-logos-container hover'>
                 <a href="#"><img className='mini-logos' src={logoCard} alt="Logo Subscriptions Card" /></a>
                 <a href="#"><article>SUBSCRIPTION</article></a>
             </div>
-            <div className='mini-logos-container'>
+            <div className='mini-logos-container hover'>
                 <a href="#"><img className='mini-logos' src={logoGps} alt="Logo GPS Locator" /></a>
                 <a href="#"><article>COMICS SHOP LOCATOR</article></a>
             </div>
-            <div className='mini-logos-container'>
+            <div className='mini-logos-container hover'>
                 <a href="#"><img className='mini-logos' src={logoVisa} alt="Logo Visa Card" /></a>
                 <a href="#"><article>DC POWER VISA</article></a>
             </div>
@@ -39,47 +39,47 @@ function Main() {
                 <div>
                     <h3>DC COMICS</h3>
                     <ul>
-                        <a href="#"><li>Characters</li></a>
-                        <a href="#"><li>Comics</li></a>
-                        <a href="#"><li>Movies</li></a>
-                        <a href="#"><li>Tv</li></a>
-                        <a href="#"><li>Games</li></a>
-                        <a href="#"><li>Collectibles</li></a>
-                        <a href="#"><li>Videos</li></a>
-                        <a href="#"><li>News</li></a>
+                        <a href="#" className="hover"><li>Characters</li></a>
+                        <a href="#" className="hover"><li>Comics</li></a>
+                        <a href="#" className="hover"><li>Movies</li></a>
+                        <a href="#" className="hover"><li>Tv</li></a>
+                        <a href="#" className="hover"><li>Games</li></a>
+                        <a href="#" className="hover"><li>Collectibles</li></a>
+                        <a href="#" className="hover"><li>Videos</li></a>
+                        <a href="#" className="hover"><li>News</li></a>
                     </ul>
                 </div>
                 <div>
                     <h3>SHOP</h3>
                     <ul>
-                        <a href="#"><li>Shop DC</li></a>
-                        <a href="#"><li>Shop DC Collectibles</li></a>
+                        <a href="#" className="hover"><li>Shop DC</li></a>
+                        <a href="#" className="hover"><li>Shop DC Collectibles</li></a>
                     </ul>
                 </div>
                 <div>
                     <h3>DC</h3>
                     <ul>
-                        <a href="#"><li>Therms of use</li></a>
-                        <a href="#"> <li>Pravicy Policy (New)</li></a>
-                        <a href="#"><li>Ad Choices</li></a>
-                        <a href="#"><li>Advertising</li></a>
-                        <a href="#"> <li>Jobs</li></a>
-                        <a href="#"><li>Subscriptions</li></a>
-                        <a href="#"><li>Talent Workshops</li></a>
-                        <a href="#"><li>CPSC Certificates</li></a>
-                        <a href="#"><li>Ratings</li></a>
-                        <a href="#"> <li>Shop Help</li></a>
-                        <a href="#"><li>Contact Us</li></a>
+                        <a href="#" className="hover"><li>Therms of use</li></a>
+                        <a href="#" className="hover"> <li>Pravicy Policy (New)</li></a>
+                        <a href="#" className="hover"><li>Ad Choices</li></a>
+                        <a href="#" className="hover"><li>Advertising</li></a>
+                        <a href="#" className="hover"> <li>Jobs</li></a>
+                        <a href="#" className="hover"><li>Subscriptions</li></a>
+                        <a href="#" className="hover"><li>Talent Workshops</li></a>
+                        <a href="#" className="hover"><li>CPSC Certificates</li></a>
+                        <a href="#" className="hover"><li>Ratings</li></a>
+                        <a href="#" className="hover"> <li>Shop Help</li></a>
+                        <a href="#" className="hover"><li>Contact Us</li></a>
                     </ul>
                 </div>
                 <div>
                     <h3>SITES</h3>
                     <ul>
-                        <a href="#"><li>DC</li></a>
-                        <a href="#"> <li>Mad Magazine</li></a>
-                        <a href="#"><li>DC Kids</li></a>
-                        <a href="#"><li>DC Universe</li></a>
-                        <a href="#"><li>DC Power Visa</li></a>
+                        <a href="#" className="hover"><li>DC</li></a>
+                        <a href="#" className="hover"> <li>Mad Magazine</li></a>
+                        <a href="#" className="hover"><li>DC Kids</li></a>
+                        <a href="#" className="hover"><li>DC Universe</li></a>
+                        <a href="#" className="hover"><li>DC Power Visa</li></a>
                     </ul>
                 </div>
             </div>
