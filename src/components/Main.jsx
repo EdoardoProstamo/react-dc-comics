@@ -6,10 +6,12 @@ function Main() {
     return <main>
         <div className="main-contents">
             <div className="jumbotron">
-                <button>CURRENT SERIES</button>
+                <button className="hover">CURRENT SERIES</button>
             </div>
             <div className="">
-                <Hero Comics={comics} />
+                <div className="comics-container">
+                    <Hero Comics={comics} />
+                </div>
                 <button>LOAD MORE</button>
             </div>
         </div>

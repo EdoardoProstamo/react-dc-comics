@@ -27,6 +27,23 @@
 }
 
 /* main-2 */
+.hero {
+    height: 150px;
+    width: 150px;
+}
+
+.comics-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hero-container {
+    width: calc(95% / 6);
+}
+
+/* main-3 */
 .main-shop {
     height: 150px;
     background-color: #0282f9;
