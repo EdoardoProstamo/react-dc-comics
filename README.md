@@ -19,3 +19,7 @@ Day-2
 
  Bonus
  - Creare un array di dati anche per i link nel footer e cercare di dinamicizzare anche quelli all’interno dei componenti della vostra app.
+
+ Day-3
+
+- Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riutilizzabile per visualizzare le card dei fumetti, sfruttando l’array di oggetti in allegato. Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.
