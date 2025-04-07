@@ -1,4 +1,6 @@
 import BlueSection from "../components/BlueSection"
+import comics from "../../data/comics";
+import Hero from "../components/Hero"
 
 function Main() {
     return <main>
@@ -7,7 +9,7 @@ function Main() {
                 <article>CURRENT SERIES</article>
             </div>
             <div>
-                <div></div>
+                <Hero Comics={comics} />
                 <button>LOAD MORE</button>
             </div>
         </div>
