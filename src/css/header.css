@@ -1,0 +1,31 @@
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 130px;
+    gap: 290px;
+}
+
+header div ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+header div ul li a {
+    text-decoration: none;
+    color: #46464c;
+    font-size: small;
+    font-weight: bold;
+}
+
+header div .logoHeader {
+    width: 80px;
+    height: 80px;
+}
+
+.bb-blue {
+    color: #0282f9;
+    border-bottom: 5px solid;
+    padding-bottom: 48px;
+}

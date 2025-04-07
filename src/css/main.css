@@ -1,0 +1,41 @@
+/* main-1 */
+.main-contents {
+    background-color: #000000;
+    font-size: larger;
+    font-weight: bold;
+    padding: 50px 0px 45px 130px;
+}
+
+.main-contents a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* main-2 */
+.main-shop {
+    height: 150px;
+    background-color: #0282f9;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.mini-logos-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mini-logos {
+    width: 40px;
+    height: 55px;
+}
+
+.mini-logos-container a {
+    text-decoration: none;
+    color: #ffffff;
+}
