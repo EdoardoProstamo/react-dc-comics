@@ -6,9 +6,9 @@ function Main() {
     return <main>
         <div className="main-contents">
             <div className="jumbotron">
-                <article>CURRENT SERIES</article>
+                <button>CURRENT SERIES</button>
             </div>
-            <div>
+            <div className="">
                 <Hero Comics={comics} />
                 <button>LOAD MORE</button>
             </div>
