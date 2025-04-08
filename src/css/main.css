@@ -41,7 +41,7 @@
 }
 
 .hero-container {
-    width: calc(95% / 6);
+    width: calc(90% / 6);
 }
 
 .hero-container h4 {
@@ -50,6 +50,7 @@
 
 .new-container {
     position: relative;
+    padding: 50px;
 }
 
 .new-container button {
@@ -60,7 +61,7 @@
     width: 150px;
     font-weight: bold;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     left: calc(50% - 150px);
 
 }
