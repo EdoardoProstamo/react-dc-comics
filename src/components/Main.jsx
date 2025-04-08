@@ -8,7 +8,7 @@ function Main() {
             <div className="jumbotron">
                 <button className="hover">CURRENT SERIES</button>
             </div>
-            <div className="">
+            <div className="new-container">
                 <div className="comics-container">
                     <Hero Comics={comics} />
                 </div>
